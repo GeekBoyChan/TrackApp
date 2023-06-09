@@ -27,6 +27,10 @@ const TrackDetailScreen = ({ navigation }) => {
   );
 };
 
+TrackDetailScreen.navigationOptions = {
+  title: 'Track Details',
+};
+
 const styles = StyleSheet.create({
   map: {
     height: 300,
